@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Loading from "./components/ui/Loading";
-// import PostsList from "./components/posts/PostsList";
-// import PostDetails from "./components/posts/PostDetails";
 
 // Lazy-loaded components
 const PostsList = lazy(() => import("./components/posts/PostsList"));
